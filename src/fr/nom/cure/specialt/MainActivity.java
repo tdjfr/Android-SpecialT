@@ -18,8 +18,32 @@ import android.view.MenuItem;
  */
 public class MainActivity extends ListActivity {
 
-    String[] listTea={"Thé vert Japonais",
-                        "Thé Vert Chinois"};
+    String[] listTea={"Noir - Roi du Yunnan",
+                        "Noir - Splendeur de Keemun",
+                        "Noir - Jardins de Darjeeling",
+                        "Noir - Ceylan Nuwara",
+                        "Noir - Noir impérial - Breakfast",
+                        "Noir - Noir de luxe - Tea Time",
+                        "Noir parfumé - Gourmandise caramel",
+                        "Noir parfumé - Délices Rouges",
+                        "Noir parfumé - Earl Grey Lime",
+                        "Noir parfumé - Saveur Tropicale",
+                        "Noir parfumé - Blueberry Muffin - Breakfast",
+                        "Noir parfumé - Earl Grey Fleur d'Oranger - Tea Time",
+                        "Vert Japonais - Sencha Shizuoka",
+                        "Vert au riz torrefié - Genmaicha",
+                        "Vert Chinois - Sencha Zhejiang",
+                        "Vert parfumé - Fleurs de Jasmin",
+                        "Vert parfumé - Menthe intense",
+                        "Vert parfumé - Mandarine pêche",
+                        "Blanc - Perle de Pai Mu Tan",
+                        "Bleu - Oolong Fujian",
+                        "Rouge parfumé - Rooibos Bourbon",
+                        "Rouge parfumé - Rooibos Orange",
+                        "Tisane digestion - Menthe Glaciale",
+                        "Tisane relaxation - Verveine Agrumes",
+                        "Tisane hydratation - Granité Citron",
+    };
 
     /** Called when the activity is first created. */
     @Override
