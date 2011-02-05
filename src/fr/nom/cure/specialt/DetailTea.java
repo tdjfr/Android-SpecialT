@@ -30,7 +30,11 @@ public class DetailTea extends Activity {
         ((RadioButton)findViewById(R.id.master)).setChecked(
                 savedTea.getBoolean(getIntent().getStringExtra("POS")+"-Master", false));
         ((RadioButton)findViewById(R.id.my)).setChecked(
-                savedTea.getBoolean(getIntent().getStringExtra("POS")+"-Master", false));
+                savedTea.getBoolean(getIntent().getStringExtra("POS")+"-My", false));
+        ((TextView)findViewById(R.id.infusion)).setText(
+                savedTea.getString(getIntent().getStringExtra("POS")+"-Infusion", "0"));
+        ((TextView)findViewById(R.id.comments)).setText(
+                savedTea.getString(getIntent().getStringExtra("POS")+"-Comments", "0"));
     }
 
 
