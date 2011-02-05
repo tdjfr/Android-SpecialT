@@ -48,7 +48,7 @@ public class MainActivity extends ListActivity
     public void onItemClick(AdapterView<?> parent, View view,
                     int position, long id) {
                 Intent i = new Intent(getApplicationContext(), DetailTea.class);
-                i.putExtra("POS",position);
+                i.putExtra("POS",Integer.toString(position));
                 i.putExtra("TEA",listTea[position]);
                 startActivity(i);
             }

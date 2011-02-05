@@ -34,12 +34,24 @@ public class DetailTea extends Activity {
         ((TextView)findViewById(R.id.infusion)).setText(
                 savedTea.getString(getIntent().getStringExtra("POS")+"-Infusion", "0"));
         ((TextView)findViewById(R.id.comments)).setText(
-                savedTea.getString(getIntent().getStringExtra("POS")+"-Comments", "0"));
+                savedTea.getString(getIntent().getStringExtra("POS")+"-Comments", ""));
     }
 
 
     @Override
     public void onPause() {
         super.onPause();
+
+        SharedPreferences.Editor spEdit = savedTea.edit();
+        spEdit.putBoolean(getIntent().getStringExtra("POS")+"-Master",
+                ((RadioButton)findViewById(R.id.master)).isChecked());
+        spEdit.putBoolean(getIntent().getStringExtra("POS")+"-My",
+                ((RadioButton)findViewById(R.id.my)).isChecked());
+        spEdit.putString(getIntent().getStringExtra("POS")+"-Infusion",
+                ((TextView)findViewById(R.id.infusion)).getText().toString());
+        spEdit.putString(getIntent().getStringExtra("POS")+"-Comments",
+                ((TextView)findViewById(R.id.comments)).getText().toString());
+        spEdit.commit();
     }
+
 }
