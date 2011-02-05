@@ -1,4 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
+
     <string name="app_name">SpecialT</string>
+
+    <string-array name="tea">
+        <item>Noir - Roi du Yunnan</item>
+        <item>Noir - Splendeur de Keemun</item>
+        <item>Noir - Jardins de Darjeeling</item>
+        <item>Noir - Ceylan Nuwara</item>
+        <item>Noir - Noir impérial - Breakfast</item>
+        <item>Noir - Noir de luxe - Tea Time</item>
+        <item>Noir parfumé - Gourmandise caramel</item>
+        <item>Noir parfumé - Délices Rouges</item>
+        <item>Noir parfumé - Earl Grey Lime</item>
+        <item>Noir parfumé - Saveur Tropicale</item>
+        <item>Noir parfumé - Blueberry Muffin - Breakfast</item>
+        <item>Noir parfumé - Earl Grey Fleur d'Oranger - Tea Time</item>
+        <item>Vert Japonais - Sencha Shizuoka</item>
+        <item>Vert au riz torrefié - Genmaicha</item>
+        <item>Vert Chinois - Sencha Zhejiang</item>
+        <item>Vert parfumé - Fleurs de Jasmin</item>
+        <item>Vert parfumé - Menthe intense</item>
+        <item>Vert parfumé - Mandarine pêche</item>
+        <item>Blanc - Perle de Pai Mu Tan</item>
+        <item>Bleu - Oolong Fujian</item>
+        <item>Rouge parfumé - Rooibos Bourbon</item>
+        <item>Rouge parfumé - Rooibos Orange</item>
+        <item>Tisane digestion - Menthe Glaciale</item>
+        <item>Tisane relaxation - Verveine Agrumes</item>
+        <item>Tisane hydratation - Granité Citron</item>
+    </string-array>
+
 </resources>

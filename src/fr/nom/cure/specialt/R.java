@@ -8,10 +8,13 @@
 package fr.nom.cure.specialt;
 
 public final class R {
+    public static final class array {
+        public static final int tea=0x7f050000;
+    }
     public static final class attr {
     }
     public static final class id {
-        public static final int save=0x7f050000;
+        public static final int save=0x7f060000;
     }
     public static final class layout {
         public static final int main=0x7f020000;
