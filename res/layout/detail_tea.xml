@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:orientation="vertical"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     >
+        <TextView
+            android:id="@+id/teaName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+        />
+        <RadioGroup
+            android:id="@+id/group1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/master"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Tea Master"/>
+            <RadioButton
+                android:id="@+id/my"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="MyTea"/>
+
+         </RadioGroup>
+
+     <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Infusion"
+    />
+      <EditText
+	android:id="@+id/infusion"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="0"
+    android:background="#D4D0C8"
+    android:textColor="#000000"
+    />
+
+         <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Comments"
+    />
+      <EditText
+	android:id="@+id/comments"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="0"
+    android:background="#D4D0C8"
+    android:textColor="#000000"
+    />
+    
+ </LinearLayout>
