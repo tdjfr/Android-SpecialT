@@ -2,12 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
      package="fr.nom.cure.specialt">
     <application>
-         <activity android:name=".MainActivity" android:label="MainActivity">
+         <activity android:name=".MainActivity" android:label="Special.T">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".DetailTea" android:label="DetailTea"></activity>
+        <activity android:name=".DetailTea" android:label="Detailed Tea"></activity>
     </application>
 </manifest>
